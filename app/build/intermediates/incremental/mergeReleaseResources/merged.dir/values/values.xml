@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="cyan">#ff00ffff</color>
+    <color name="darkgray">#ff404040</color>
+    <color name="gray">#ff808080</color>
+    <color name="green">#ff00ff00</color>
+    <color name="lightgray">#ff651e1e</color>
+    <color name="magenta">#ffff00ff</color>
+    <color name="red">#ffff0000</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow">#ffffff00</color>
+    <string name="about">"If you ask your self what's my IQ? then this IQ Test is for You! This Game measures your IQ which will allow you to know the strength of your own mind.
+	    
+	    \"Imagination is more important than knowledge.For knowledge is limited to all we know and understand, while imagination embraces the entire world, and all there ever will be to know and understand\"-Albert Einstein
+               
+               
+               For any query and suggestions, drop a mail to app. anuj@gmail.com</string>
+    <string name="app_name">Test Your I Q</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_image_question1">ImageQuestion1</string>
+    <string name="title_activity_image_question2">ImageQuestion2</string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="title_activity_question1">Question1</string>
+    <string name="title_activity_question10">Question10</string>
+    <string name="title_activity_question2">Question2</string>
+    <string name="title_activity_question3">Question3</string>
+    <string name="title_activity_question4">Question4</string>
+    <string name="title_activity_question5">Question5</string>
+    <string name="title_activity_question6">Question6</string>
+    <string name="title_activity_question7">Question7</string>
+    <string name="title_activity_question8">Question8</string>
+    <string name="title_activity_question9">Question9</string>
+    <string name="title_activity_question_one">QuestionOne</string>
+    <string name="title_activity_question_two">QuestionTwo</string>
+    <string name="title_activity_qusetion3">Qusetion3</string>
+    <string name="title_activity_qusetion_one">QusetionOne</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_user_detail">UserDetail</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

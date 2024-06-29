@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".About" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="This application has been developed by the  Sandeep Kumar (660570101003) and Ankit Kushwaha (150570104010)  students of Phonics Group of Institute Roorkee,
+				under the guidance of Mr.Sonu Kumar (Asst. Professor  Dept. of CSE).
+				This Application was developed for the fulfilment the requirement of the minor project. 
+				An IQ test measures a person's cognitive ability compared to the population at large. It's a standardized test, and 100 is the median, or average, score. That means a person with an
+				 IQ within 10 points or so of 100 is of average intelligence compared to the rest of the population. A person whose score is below 70 may have developmental delays related to intelligence and a person whose score is above 130 is typically exceptionally smart.
+				For any query contact Sandep Kumar (8057063125 ,sandeep200192@gmail.com), Ankit Kushwaha (9917798525,rana.ankit2707@gmail.com)." />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/our_pic" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

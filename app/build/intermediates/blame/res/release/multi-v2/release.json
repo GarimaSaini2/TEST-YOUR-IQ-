@@ -1,0 +1,112 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\TestYourIQ\\app\\build\\intermediates\\res\\merged\\release\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\TestYourIQ\\app\\src\\main\\res\\values\\color.xml",
+                    "from": {
+                        "startLines": "3,9,12,2,10,5,6,11,4,7,8",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "95,332,449,53,370,171,210,408,134,253,292",
+                        "endColumns": "37,36,36,40,36,37,41,39,35,37,38",
+                        "endOffsets": "132,368,485,93,406,208,251,447,169,290,330"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,97,138,179,224,265,307,353,397,437,479",
+                        "endColumns": "41,40,40,44,40,41,45,43,39,41,42",
+                        "endOffsets": "92,133,174,219,260,302,348,392,432,474,517"
+                    }
+                },
+                {
+                    "source": "E:\\TestYourIQ\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "10,3,4,5,9,33,6,31,32,7,21,29,22,20,23,24,25,26,27,28,18,17,19,16,30,8",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "464,59,111,165,408,2126,217,1976,2051,271,1332,1844,1396,1268,1460,1524,1588,1652,1716,1780,1135,1066,1204,997,1910,341",
+                        "endLines": "15,3,4,5,9,33,6,31,32,7,21,29,22,20,23,24,25,26,27,28,18,17,19,16,30,8",
+                        "endColumns": "89,50,52,50,54,58,52,73,73,68,62,64,62,62,62,62,62,62,62,62,67,67,62,67,64,65",
+                        "endOffsets": "991,105,159,211,458,2180,265,2045,2120,335,1390,1904,1454,1326,1518,1582,1646,1710,1774,1838,1198,1129,1262,1060,1970,402"
+                    },
+                    "to": {
+                        "startLines": "13,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "522,1049,1100,1153,1204,1259,1318,1371,1445,1519,1588,1651,1716,1779,1842,1905,1968,2031,2094,2157,2220,2288,2356,2419,2487,2552",
+                        "endLines": "18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43",
+                        "endColumns": "89,50,52,50,54,58,52,73,73,68,62,64,62,62,62,62,62,62,62,62,67,67,62,67,64,65",
+                        "endOffsets": "1044,1095,1148,1199,1254,1313,1366,1440,1514,1583,1646,1711,1774,1837,1900,1963,2026,2089,2152,2215,2283,2351,2414,2482,2547,2613"
+                    }
+                },
+                {
+                    "source": "E:\\TestYourIQ\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "44,51",
+                        "startColumns": "4,4",
+                        "startOffsets": "2618,2909",
+                        "endLines": "50,53",
+                        "endColumns": "12,12",
+                        "endOffsets": "2904,3064"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\TestYourIQ\\app\\build\\intermediates\\res\\merged\\release\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\TestYourIQ\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "225",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "373"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\TestYourIQ\\app\\build\\intermediates\\res\\merged\\release\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\TestYourIQ\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        }
+    ]
+}

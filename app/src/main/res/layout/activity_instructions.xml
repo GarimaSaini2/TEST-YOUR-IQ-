@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Instructions" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="This IQ Test consists of 10 Questions which are selected randomly from the question bank.
+			Questions are based on Verbal, Mathematical, Spatial,Visualization, Classification, Logic&amp;Pattern recognition
+			  ability to determine your IQ. Time limit to complete  the test is 10 minutes after which the test will be 
+			   automatically submitted and your score is generated. Question once attempted cannot be reattempted. After 
+			    the completion of the test, your IQ score will be displayed along with the category you fall in.ENJOY !!!!! "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </ScrollView>
+
+</RelativeLayout>

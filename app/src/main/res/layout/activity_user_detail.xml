@@ -1,0 +1,77 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".UserDetail" >
+
+    <TableRow android:layout_width="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:text="NAME : "
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@color/white"
+            android:hint=" Enter Your Name"
+             >
+
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="AGE : "
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="Enter Age between 15 to 100"
+            android:inputType="number"
+            />
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp"
+            android:onClick="submit"
+            android:text="SUBMIT"
+            android:textColor="@color/white" />
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Home" >
+
+    <Button
+        android:id="@+id/buttonInstructions"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonStart"
+        android:layout_below="@+id/buttonStart"
+        android:layout_marginTop="28dp"
+        android:onClick="instructions"
+        android:text="Instructions"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonAbout"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonInstructions"
+        android:layout_below="@+id/buttonInstructions"
+        android:layout_marginTop="30dp"
+        android:onClick="about"
+        android:text="About"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:onClick="start"
+        android:text="Start"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonAbout"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:onClick="history"
+        android:layout_marginTop="35dp"
+        android:text="History" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonAbout"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="27dp"
+        android:onClick="exit"
+        android:text="Exit"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>
